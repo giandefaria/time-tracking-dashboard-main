@@ -10,16 +10,10 @@ var obj = [
         "current": 32,
         "previous": 36
       },
-      "_monthly": {
+      "monthly": {
         "current": 103,
         "previous": 128
-      },
-      get "monthly"() {
-        return this["_monthly"];
-      },
-      set "monthly"(value) {
-        this["_monthly"] = value;
-      },
+      }
     }
   },
   {
