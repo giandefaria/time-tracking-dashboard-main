@@ -5,7 +5,7 @@ challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-
 **Para executar esse projeto basta executar o arquivo index.html**
  ### Tarefas
  [X] criar os grids do projeto 
- [ ] adicionar a imagem e a caixa do jeremy robson
+ [X] adicionar a imagem e a caixa do jeremy robson
  [ ] criar os campos nos grids para os dados json
  [ ] fazer o js imprimir os dados JSON nos grids
  [ ] adicionar os seletores de dia, semana e ano
