@@ -4,7 +4,7 @@ html {
 .container {
     margin: 20vh auto;
     width: 80vw;
-    height: 50vh;
+    height: 53vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
@@ -24,3 +24,9 @@ div {
     height: 70%;
     background: hsl(246, 80%, 60%);
 }
+
+.image {
+    height: 15%;
+    background: blueviolet url(images/icon-work.svg) no-repeat blueviolet url(images/icon-work.svg) no-repeat 93%;
+}
+
