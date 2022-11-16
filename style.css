@@ -25,8 +25,32 @@ div {
     background: hsl(246, 80%, 60%);
 }
 
-.image {
+.image--work {
     height: 15%;
-    background: blueviolet url(images/icon-work.svg) no-repeat blueviolet url(images/icon-work.svg) no-repeat 93%;
+    background: blueviolet url(images/icon-work.svg) no-repeat 93%;
 }
 
+.image--play {
+    height: 15%;
+    background: blueviolet url(images/icon-play.svg) no-repeat 93%;
+}
+
+.image--study {
+    height: 15%;
+    background: blueviolet url(images/icon-study.svg) no-repeat 93%;
+}
+
+.image--exercise {
+    height: 15%;
+    background: blueviolet url(images/icon-exercise.svg) no-repeat 93%;
+}
+
+.image--social {
+    height: 15%;
+    background: blueviolet url(images/icon-social.svg) no-repeat 93%;
+}
+
+.image--selfCare {
+    height: 15%;
+    background: blueviolet url(images/icon-self-care.svg) no-repeat 93%;
+}
