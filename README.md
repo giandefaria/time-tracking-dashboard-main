@@ -9,9 +9,12 @@ challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-
  [X] criar os campos nos grids para os dados json
  [X] fazer o js imprimir os dados JSON nos grids
  [X] Adicionar imagens dentro dos box's
- [ ] adicionar os seletores de dia, semana e ano
- [ ] alterar os dados de acordo com o selor selecionado
- [ ] alterar o visual CSS de acordo com o design do projeto
+ [X] adicionar os seletores de dia, semana e ano
+ [X] alterar os dados de acordo com o selor selecionado
+ [ ] Alterar visual do box Jeremy Robson
+ [ ] Alterar visual dos seletores
+ [ ] Alterar visual do box das atividades
+
 
  # Arquivo index.html
  * 
@@ -20,4 +23,7 @@ challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-
  * 
 
  # Arquivo script.js
-  * 
+  * Esse arquivo possuirá a responsabilidade de adicionar os valores no HTML, de acordo com o seletor selecionado (daily, weekly, mounthly). 
+  * Dependendo do seletor selecionado, o arquivo script.js buscará os dados, escritos em Json na variável 'obj', constante no arquivo dataJson.js
+  * A função insertData é a responsável por inserir os dados de acordo com o seletor indicado na variável 'selector'
+  * Foi criado também um for para mapear os seletores quando forem clicados, alterando o valor da variável 'selector' e executando a função 'insertData' para alterar as informações de acordo com o seletor selecionado.
