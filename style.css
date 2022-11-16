@@ -25,6 +25,10 @@ div {
     background: hsl(246, 80%, 60%);
 }
 
+.selectors {
+    cursor: pointer;
+}
+
 .image--work {
     height: 15%;
     background: blueviolet url(images/icon-work.svg) no-repeat 93%;

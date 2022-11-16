@@ -4,6 +4,8 @@ const boxWork = document.querySelector(".work");
 const title = document.querySelectorAll(".title");
 const currentHour = document.querySelectorAll(".current--hour");
 const lastWeek = document.querySelectorAll(".last--week");
+const buttonSelect = document.querySelectorAll(".selectors");
+
 
 var selector = 'weekly';
 
@@ -15,3 +17,17 @@ for (let i = 0; i < title.length; i++) {
     
 }
 
+
+for (let i = 0; i < buttonSelect.length; i++) {
+
+    buttonSelect[i].addEventListener("click", () =>{
+
+        const value = buttonSelect[i].innerText;
+        const selectedValue = value.toLowerCase();
+        selector = selectedValue
+        console.log(selector);
+
+    }
+) 
+        
+}
