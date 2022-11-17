@@ -1,9 +1,10 @@
 html {
     background: hsl(226, 43%, 10%);
+    font-family: 'Rubik', sans-serif;
 }
 .container {
     margin: 20vh auto;
-    width: 80vw;
+    width: 1200px;
     height: 53vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -12,49 +13,118 @@ html {
 
 }
 
-div {
-    background: teal;
-}
-
 .mainBox {
     grid-row: 1 / 3;
+}
+
+.border {
+    background: hsl(235, 46%, 20%);
+    border-radius: 18px;
+    position: relative;
 }
 
 .jeremyBox {
     height: 70%;
     background: hsl(246, 80%, 60%);
+    
+}
+
+.jeremyBox img {
+    width: 35%;
+    margin: 3vh 2vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 4vw;
+}
+
+.jeremyBox--text {
+    margin: 3vh 2vw;
+}
+
+.flexBox--title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;         
+
+}
+
+.title {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+.light--text {
+    font-weight: 300;
+    
+}
+
+
+.medium--text {
+    font-weight: 500;
+}
+
+.jeremy--name {
+    color: white;
+    font-weight: 300;
+    font-size: 34px
+
+}
+
+.current--hour {
+    color: white;
+    font-weight: 300;
+    font-size: 48px
+
 }
 
 .selectors {
     cursor: pointer;
 }
 
+.border--image {
+    border-radius: 18px 18px 0 0;
+    height: 28%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+
+}
+
+.text--box {
+    background: hsl(235, 46%, 20%);
+    border-radius: 14px 14px 0 0;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 46px;
+    padding: 20px 0 0 0;
+    z-index: 20;
+}
+
 .image--work {
-    height: 15%;
-    background: blueviolet url(images/icon-work.svg) no-repeat 93%;
+    background: hsl(15, 100%, 70%) url(images/icon-work.svg) no-repeat 93% 75%;
 }
 
 .image--play {
-    height: 15%;
-    background: blueviolet url(images/icon-play.svg) no-repeat 93%;
+    background: hsl(195, 74%, 62%) url(images/icon-play.svg) no-repeat 93%;
 }
 
 .image--study {
-    height: 15%;
-    background: blueviolet url(images/icon-study.svg) no-repeat 93%;
+    background: hsl(348, 100%, 68%) url(images/icon-study.svg) no-repeat 93%;
 }
 
 .image--exercise {
-    height: 15%;
-    background: blueviolet url(images/icon-exercise.svg) no-repeat 93%;
+    background: hsl(145, 58%, 55%) url(images/icon-exercise.svg) no-repeat 93% 0;
 }
 
 .image--social {
-    height: 15%;
-    background: blueviolet url(images/icon-social.svg) no-repeat 93%;
+    background: hsl(264, 64%, 52%) url(images/icon-social.svg) no-repeat 93% 45%;
 }
 
 .image--selfCare {
-    height: 15%;
-    background: blueviolet url(images/icon-self-care.svg) no-repeat 93%;
+    background: hsl(43, 84%, 65%) url(images/icon-self-care.svg) no-repeat 93% -10px;
 }

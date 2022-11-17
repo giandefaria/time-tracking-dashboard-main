@@ -11,6 +11,7 @@ challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-
  [X] Adicionar imagens dentro dos box's
  [X] adicionar os seletores de dia, semana e ano
  [X] alterar os dados de acordo com o selor selecionado
+ [X] adicionar cor background nos box
  [ ] Alterar visual do box Jeremy Robson
  [ ] Alterar visual dos seletores
  [ ] Alterar visual do box das atividades
