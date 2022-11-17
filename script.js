@@ -24,6 +24,15 @@ function insertData () {
 
 insertData();
 
+function removeClassList () {
+
+    for (let i = 0; i < buttonSelect.length; i++) {
+        
+        buttonSelect[i].classList.remove('active');
+        
+    }
+}
+
 
 for (let i = 0; i < buttonSelect.length; i++) {
 
@@ -31,8 +40,11 @@ for (let i = 0; i < buttonSelect.length; i++) {
 
         const value = buttonSelect[i].innerText;
         const selectedValue = value.toLowerCase();
-        selector = selectedValue
+        selector = selectedValue;
 
         insertData();
+        removeClassList();
+        buttonSelect[i].classList.add('active');
+        
     })
 }

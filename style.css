@@ -54,6 +54,18 @@ html {
     margin: 3vh 2vw;
 }
 
+.selectors {
+    cursor: pointer;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.active {
+    color: white;
+}
+
+
+
 .flexBox--title {
     display: flex;
     flex-direction: row;
@@ -100,9 +112,7 @@ html {
     color: hsl(236, 100%, 87%);
 }
 
-.selectors {
-    cursor: pointer;
-}
+
 
 .border--image {
     border-radius: 16px 16px 0 0;
