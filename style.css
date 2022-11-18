@@ -216,11 +216,10 @@ html {
     }
 
     .work, .play, .study, .exercise, .social, .selfCare {
-        height: 200px;
+        height: 180px;
     }
 
     .text--box {
-        gap: 15px;
         padding: 8% 8% 0;
         width: 84%;
     }
@@ -229,6 +228,10 @@ html {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .current--hour {
+        font-size: 40px;
     }
 
 
