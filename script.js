@@ -10,7 +10,8 @@ const buttonSelect = document.querySelectorAll(".selectors");
 var selector = 'weekly';
 
 
-
+//Função que inserirá no HTML os dados constantes no JSON, que serão escolhidos de acordo com o valor constante na variável 'selector'
+//obj é uma variável onde consta os dados em JSON. Pode ser acessada no arquivo dataJson.js
 function insertData () {   
 
     for (let i = 0; i < title.length; i++) {
@@ -24,6 +25,8 @@ function insertData () {
 
 insertData();
 
+
+//Possui o papel de remover qualquer seletor de destaque antes de destacar o seletor selecionado
 function removeClassList () {
 
     for (let i = 0; i < buttonSelect.length; i++) {
@@ -33,7 +36,7 @@ function removeClassList () {
     }
 }
 
-
+//captará o valor do seletor e mudará a variável 'selector'. Limpará o seletor que esteva com o visual ativo e adicionará o visual ao selecionado
 for (let i = 0; i < buttonSelect.length; i++) {
 
     buttonSelect[i].addEventListener("click", () =>{

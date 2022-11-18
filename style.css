@@ -3,8 +3,8 @@ html {
     font-family: 'Rubik', sans-serif;
 }
 .container {
-    margin: 20vh auto;
-    width: 1200px;
+    margin: 23vh auto;
+    width: 1100px;
     height: 496px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -42,7 +42,18 @@ html {
 }
 
 .jeremyBox--text {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
     margin: 0 2vw 0;
+}
+
+.jeremy--name {
+    line-height: normal;
+    color: white;
+    font-weight: 300;
+    font-size: 34px
+ 
 }
 
 .box--selectors {
@@ -92,14 +103,6 @@ html {
     
 }
 
-
-.jeremy--name {
-    color: white;
-    font-weight: 300;
-    font-size: 34px
-
-}
-
 .current--hour {
     color: white;
     font-weight: 300;
@@ -130,7 +133,7 @@ html {
     flex-direction: column;
     padding: 10% 10% 0px;
     background: hsl(235, 46%, 20%);
-    border-radius: 14px 14px 0 0;
+    border-radius: 14px 14px 16px 16px;
     position: absolute;
     width: 80%;
     height: 60%;
@@ -160,4 +163,73 @@ html {
 
 .image--selfCare {
     background: hsl(43, 84%, 65%) url(images/icon-self-care.svg) no-repeat 93% -10px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .container {
+        margin: unset;
+        padding: 20vw 5vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: unset;
+        height: unset;
+    }
+
+    .mainBox {
+        grid-row: unset;
+
+    }
+
+    .jeremyBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: unset;
+        padding: 37px 25px;
+    }
+
+    .jeremyBox img {
+        width: 22%;
+        border-radius: 14vw;
+        margin: 0;
+    }
+
+    .jeremyBox--text {
+        margin: 0;
+    }
+
+    .jeremy--name {
+        font-size: 28px;
+    }
+
+    .container2 {
+        padding: 30px 10px;
+    }
+
+    .box--selectors {
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 20px;
+        margin: unset;
+    }
+
+    .work, .play, .study, .exercise, .social, .selfCare {
+        height: 200px;
+    }
+
+    .text--box {
+        gap: 15px;
+        padding: 8% 8% 0;
+        width: 84%;
+    }
+
+    .flexBox--hour {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
 }

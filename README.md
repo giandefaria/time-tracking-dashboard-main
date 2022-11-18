@@ -1,6 +1,9 @@
 # Time tracking dashboard
 challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw
 
+# Preview
+![preview-da-página](./design/desktop-preview.jpg)
+
 **O objetivo é treinar as habilidades com o uso do grid. Há também a possibilidade de praticar o uso de dados de um arquivo JSON no projeto, arquivo esse já fornecido pelo challenge.** 
 **Para executar esse projeto basta executar o arquivo index.html**
  ### Tarefas
@@ -14,15 +17,18 @@ challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-
  [X] adicionar cor background nos box
  [X] Alterar visual do box Jeremy Robson
  [X] Alterar visual do box das atividades
- [ ] Alterar visual dos seletores ao clicar
+ [x] Alterar visual dos seletores ao clicar
+ [X] adicionar mediaQuery para o celular.
+ [X] Ajustar os grids da página
+ [X] Ajustar largura dos boxes
 
 
 
  # Arquivo index.html
- * 
+ * Arquivo para iniciar o projeto. Aqui consta a marcação dos elementos no html.
 
  # Arquivo style.css
- * 
+ * Responsável por adicionar o visual da página.
 
  # Arquivo script.js
   * Esse arquivo possuirá a responsabilidade de adicionar os valores no HTML, de acordo com o seletor selecionado (daily, weekly, mounthly). 
