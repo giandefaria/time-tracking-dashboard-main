@@ -1,37 +1,76 @@
-# Time tracking dashboard
-challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw
+<p align="center">
+  <image
+  src="https://img.shields.io/github/languages/count/giandefaria/ecommerce-product-page-main"
+  />
+  <image
+  src="https://img.shields.io/github/languages/top/giandefaria/ecommerce-product-page-main"
+  />
+  <image
+  src="https://img.shields.io/github/last-commit/giandefaria/ecommerce-product-page-main"
+  />
+  <image
+  src="https://img.shields.io/github/watchers/giandefaria/ecommerce-product-page-main"
+  />
+</p>
 
-# Preview
-![preview-da-página](./design/desktop-preview.jpg)
-
-**O objetivo é treinar as habilidades com o uso do grid. Há também a possibilidade de praticar o uso de dados de um arquivo JSON no projeto, arquivo esse já fornecido pelo challenge.** 
-**Para executar esse projeto basta executar o arquivo index.html**
- ### Tarefas
- [X] criar os grids do projeto 
- [X] adicionar a imagem e a caixa do jeremy robson
- [X] criar os campos nos grids para os dados json
- [X] fazer o js imprimir os dados JSON nos grids
- [X] Adicionar imagens dentro dos box's
- [X] adicionar os seletores de dia, semana e ano
- [X] alterar os dados de acordo com o selor selecionado
- [X] adicionar cor background nos box
- [X] Alterar visual do box Jeremy Robson
- [X] Alterar visual do box das atividades
- [x] Alterar visual dos seletores ao clicar
- [X] adicionar mediaQuery para o celular.
- [X] Ajustar os grids da página
- [X] Ajustar largura dos boxes
+# 📋 Índice do projeto
 
 
+- [Proposta do projeto](#id01)
+- [Arquivos do projeto](#id03)
+- [Visual do projeto](#id04)
+- [Feito com](#id05)
+- [Autor](#id07)
 
- # Arquivo index.html
- * Arquivo para iniciar o projeto. Aqui consta a marcação dos elementos no html.
+# Proposta do projeto <a name="id01"></a>
 
- # Arquivo style.css
- * Responsável por adicionar o visual da página.
+O layout do projeto é baseado nesse challenge do site Frontend Mentor: https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw
+
+
+O objetivo é treinar as habilidades com o uso do grid. Há também a possibilidade de praticar o uso de dados de um arquivo JSON no projeto, arquivo esse já fornecido pelo challenge.
+
+Para executar esse projeto basta executar o arquivo index.html.
+
+
+# Arquivos do projeto <a name="id03"> </a>
+
+Os arquivos do projeto são: 
+* index.html => Arquivo para iniciar o projeto. Aqui consta a marcação dos elementos no html
+* style.css => Adicionei o visual da página no desktop e no mobile
+* script.js => Contém todas as funções JS responsáveis pela interação do usuário com a página
 
  # Arquivo script.js
   * Esse arquivo possuirá a responsabilidade de adicionar os valores no HTML, de acordo com o seletor selecionado (daily, weekly, mounthly). 
   * Dependendo do seletor selecionado, o arquivo script.js buscará os dados, escritos em Json na variável 'obj', constante no arquivo dataJson.js
   * A função insertData é a responsável por inserir os dados de acordo com o seletor indicado na variável 'selector'
   * Foi criado também um for para mapear os seletores quando forem clicados, alterando o valor da variável 'selector' e executando a função 'insertData' para alterar as informações de acordo com o seletor selecionado.
+
+# Visual do projeto <a name="id04"></a>
+
+<p align="center">
+
+* Design da página principal no desktop
+<image
+src="./design/desktop-preview.jpg"
+/>
+
+</p>
+
+# 🛠 Feito com <a name="id05"></a>
+
+<br />
+
+- [JavaScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+- [CSS]
+- [HTML]
+
+<br />
+
+
+# Autor <a name="id07"></a>
+
+<br />
+
+- Frontend Mentor - [@giandefaria](https://www.frontendmentor.io/profile/giandefaria)
+- Linkedim - [Gian de Faria](www.linkedin.com/in/gianfaria)
+- GitHub - [giandefaria](https://github.com/giandefaria)
